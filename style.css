@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background: linear-gradient(135deg, #FCF8E8, #CEE5D0); /* Gradasi cream ke hijau pastel */
+    color: #333;
+}
+
+.container {
+    background: rgba(252, 248, 232, 0.9); /* Warna FCF8E8 dengan transparansi */
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #94B49F; /* Hijau sage */
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #94B49F;
+    border-radius: 5px;
+    background: #CEE5D0;
+    color: #333;
+}
+
+button {
+    padding: 10px 15px;
+    background: #94B49F;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+}
+
+button:hover {
+    background: #6F8F72;
+}
+
+p#result {
+    font-size: 18px;
+    font-weight: bold;
+}
